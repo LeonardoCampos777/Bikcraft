@@ -1,14 +1,13 @@
 .bicicletas-lista{
-  padding: 60px 0px 120px 0px;
-
+  padding-top: 60px;
+  padding-bottom: 120px;
 }
 
 .bicicletas-lista h2{
+  margin: 0 auto;
   margin-bottom: 40px;
   max-width: 1200px;
-  padding: 0 20px 0px 20px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0px 20px;
 }
 
 .bicicletas-lista ul{
@@ -44,4 +43,14 @@
 
 .bicicletas-lista li span{
   padding-left: 20px;
+}
+
+@media (max-width:800px){
+  .bicicletas-lista{
+    padding-bottom: 60px;
+  }
+
+  .bicicletas-lista ul{
+    gap: 20px;
+  }
 }
