@@ -1,10 +1,7 @@
 .botao{
   padding: 16px 32px;
   display: inline-block;
-  font-size: 18px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  line-height: 1.33;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
   background: linear-gradient(#ffbf00, #f2a50c);
   color: var(--cor-p5);
   border-radius: 4px;
@@ -19,6 +16,6 @@
 @media (max-width:600px){
   .botao{
     padding: 12px 16px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
