@@ -18,13 +18,14 @@ links.forEach(ativarLink);
 const parametros = new URLSearchParams(location.search);
 
 function ativarProduto(parametro){
-  const elemento = document.getElementById(parametro);
+  elemento = document.getElementById(parametro);
 
   if(elemento){
     elemento.checked = true;
   }
- 
-  console.log(elemento);
+
 }
 
 parametros.forEach(ativarProduto);
+
+
